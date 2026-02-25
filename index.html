@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbin Rudro - Web Developer</title>
+    <meta name="description" content="Personal portfolio of Arbin Rudro, a Web Developer based in Dhaka, Bangladesh.">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<!-- Use Bootstrap ScrollSpy to update active nav links automatically based on scroll position -->
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+    tabindex="0">
+
+    <!-- 1. Sticky Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Arbin Rudro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list fs-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Hero Section -->
+    <section id="home" class="hero-section bg-dark-section">
+        <div class="container">
+            <div class="row align-items-center flex-column-reverse flex-lg-row text-center text-lg-start">
+                <div class="col-lg-7 mt-5 mt-lg-0">
+                    <p class="fs-5 fw-medium mb-2">Hi, I'm a Web Developer</p>
+                    <h1 class="display-3 fw-bold mb-3 text-dark">Arbin Rudro</h1>
+                    <p class="fs-4 mb-4">Based in Dhaka, Bangladesh.</p>
+                    <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3">
+                        <a href="#portfolio" class="btn btn-dark-custom">View My Works</a>
+                        <a href="#contact" class="btn btn-outline-dark-custom">Contact Me</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center mb-4 mb-lg-0">
+                    <img src="assets/images/profile.jpg" alt="Arbin Rudro Profile"
+                        class="hero-profile-img rounded-circle img-fluid shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. About Section -->
+    <section id="about" class="section-padding bg-light-gray-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mb-5 mb-lg-0 text-center text-lg-start">
+                    <span class="section-label">KNOW ME MORE</span>
+                    <h2 class="display-5 fw-bold mb-4">About Me</h2>
+                    <p class="fs-5 text-muted mb-4 pb-2"><strong>Experienced WordPress Developer with 3+ years of
+                            hands-on experience in building fast, responsive, and user-focused
+                            websites.</strong><br><br>Specialized in Elementor development, theme customization, and
+                        performance optimization. Passionate about delivering clean, scalable, and SEO-friendly
+                        solutions that help businesses grow online.</p>
+
+                    <div class="row text-start ps-3 ps-lg-0">
+                        <div class="col-sm-6 mb-3">
+                            <span class="fw-bold d-block text-dark">Name:</span>
+                            <span class="text-muted">Arbin Rudro</span>
+                        </div>
+                        <div class="col-sm-6 mb-3">
+                            <span class="fw-bold d-block text-dark">Email:</span>
+                            <a href="mailto:arbinrudro1234@gmail.com"
+                                class="text-primary text-decoration-none">arbinrudro1234@gmail.com</a>
+                        </div>
+                        <div class="col-sm-6 mb-3">
+                            <span class="fw-bold d-block text-dark">Languages:</span>
+                            <span class="text-muted">English (Fluent), Bangla (Fluent)</span>
+                        </div>
+                        <div class="col-sm-6 mb-3">
+                            <span class="fw-bold d-block text-dark">Location:</span>
+                            <span class="text-muted">Dhaka, Bangladesh</span>
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-2 text-center text-lg-start">
+                        <a href="https://drive.google.com/file/d/1PlJyUaEu4vrcpyp-tWLDB7JD_EykGSU2/view" target="_blank"
+                            class="btn btn-primary-custom">Download CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="experience-number">3+</div>
+                    <p class="fs-4 fw-bold mt-n3 text-dark">Years of Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Services Section -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="section-heading-center">
+                <span class="section-label">WHAT I DO</span>
+                <h2>Services</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card shadow-sm">
+                        <i class="bi bi-wordpress service-icon"></i>
+                        <h4 class="mb-3">WordPress Development</h4>
+                        <p class="text-muted mb-0">Business & Portfolio Websites – Custom WordPress + Elementor builds
+                            tailored to your brand.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card shadow-sm">
+                        <i class="bi bi-cart3 service-icon"></i>
+                        <h4 class="mb-3">WooCommerce Stores</h4>
+                        <p class="text-muted mb-0">Building robust e-commerce stores with product setup and checkout
+                            optimization.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card shadow-sm">
+                        <i class="bi bi-lightning-charge service-icon"></i>
+                        <h4 class="mb-3">Website Optimization</h4>
+                        <p class="text-muted mb-0">Improving website speed, security, Core Web Vitals, and overall UX
+                            improvements.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card shadow-sm">
+                        <i class="bi bi-layout-text-window service-icon"></i>
+                        <h4 class="mb-3">Landing Pages</h4>
+                        <p class="text-muted mb-0">Designing high-conversion, fast-loading landing pages focused on user
+                            engagement.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card shadow-sm">
+                        <i class="bi bi-tools service-icon"></i>
+                        <h4 class="mb-3">Bug Fixing & Maintenance</h4>
+                        <p class="text-muted mb-0">Resolving complex WordPress issues, bug fixing, and ensuring ongoing
+                            website maintenance.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card shadow-sm">
+                        <i class="bi bi-search service-icon"></i>
+                        <h4 class="mb-3">SEO Optimization</h4>
+                        <p class="text-muted mb-0">Implementing SEO-friendly website structures to help your business
+                            rank and grow online.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Resume Section -->
+    <section id="resume" class="section-padding bg-light-gray-section">
+        <div class="container">
+            <div class="section-heading-center">
+                <span class="section-label">SUMMARY</span>
+                <h2>Resume</h2>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h3 class="mb-4">My Education</h3>
+                    <div class="resume-box">
+                        <span class="resume-date">STARTED IN - 2025</span>
+                        <h5 class="mt-2">BSS in Honours, Social Science</h5>
+                        <p class="text-primary mb-2">Tejgaon College, Dhaka</p>
+                        <p class="text-muted mb-0">Currently Studying</p>
+                    </div>
+                    <div class="resume-box">
+                        <span class="resume-date">2017 - 2022</span>
+                        <h5 class="mt-2">HSC</h5>
+                        <p class="text-primary mb-2">Bheramara Goverment College, Kushtia</p>
+                        <p class="text-muted mb-0">GPA: 4.50 / 5.00</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h3 class="mb-4">My Experience</h3>
+                    <div class="resume-box">
+                        <span class="resume-date">2024 - Present</span>
+                        <h5 class="mt-2">Front-End & WordPress Developer</h5>
+                        <p class="text-primary mb-2">Coder IT Solution</p>
+                        <p class="text-muted mb-0">Developed custom WordPress websites using Elementor and custom
+                            themes. Collaborated with designers, optimized performance, fixed complex issues, and
+                            delivered scalable web solutions.</p>
+                    </div>
+                    <div class="resume-box">
+                        <span class="resume-date">2023 - Present</span>
+                        <h5 class="mt-2">WordPress Developer</h5>
+                        <p class="text-primary mb-2">Fiverr (Freelance)</p>
+                        <p class="text-muted mb-0">Delivered 180+ WordPress projects globally. Built custom Elementor
+                            websites, landing pages, and business sites while improving speed, UX, and SEO performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h3 class="mb-4">My Skills</h3>
+                </div>
+                <!-- Skills Columns -->
+                <div class="col-md-6 pe-md-4">
+                    <div class="mb-4">
+                        <div class="progress-title">
+                            <span>WordPress & E-commerce</span>
+                            <span class="text-primary-custom">98%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="WordPress & E-commerce" aria-valuenow="98"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="progress-title">
+                            <span>HTML/CSS/JS/PHP/MySQL</span>
+                            <span class="text-primary-custom">90%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="HTML/CSS/JS/PHP/MySQL" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="progress-title">
+                            <span>Git/Firebase/REST API</span>
+                            <span class="text-primary-custom">85%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Git/Firebase/REST API" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 ps-md-4">
+                    <div class="mb-4">
+                        <div class="progress-title">
+                            <span>Elementor & Elementor Pro</span>
+                            <span class="text-primary-custom">95%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Elementor & Elementor Pro"
+                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="progress-title">
+                            <span>WooCommerce Development</span>
+                            <span class="text-primary-custom">90%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="WooCommerce Development" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="progress-title">
+                            <span>WP Speed Optimization</span>
+                            <span class="text-primary-custom">95%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="WP Speed Optimization" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="https://drive.google.com/file/d/1PlJyUaEu4vrcpyp-tWLDB7JD_EykGSU2/view" target="_blank"
+                    class="btn btn-outline-dark-custom">Download CV <i class="bi bi-download ms-2"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Portfolio Section -->
+    <section id="portfolio" class="section-padding">
+        <div class="container">
+            <div class="section-heading-center">
+                <span class="section-label">PORTFOLIO</span>
+                <h2>My Work</h2>
+            </div>
+
+            <!-- Category Filter Menu -->
+            <ul class="portfolio-filter text-center">
+                <li class="active" data-filter="all">All</li>
+                <li data-filter="detailed">Detailed</li>
+                <li data-filter="mockups">Mockups</li>
+                <li data-filter="youtube">YouTube Videos</li>
+                <li data-filter="vimeo">Vimeo Videos</li>
+            </ul>
+
+            <!-- Portfolio Grid -->
+            <div class="row" id="portfolio-grid">
+                <!-- Item 1 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="detailed">
+                    <img src="https://via.placeholder.com/600x450?text=hbd.lu" alt="HBD.lu Project" class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <h4 class="portfolio-title">hbd.lu</h4>
+                        <span class="portfolio-category mb-3 text-light text-center px-3"
+                            style="font-size:0.75rem;">Interactive, data-driven systems</span>
+                        <a href="https://hbd.lu" target="_blank" class="btn btn-sm btn-primary-custom mt-2"
+                            style="font-size: 0.8rem; padding: 0.4rem 1rem;">Visit Site</a>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="mockups">
+                    <img src="https://via.placeholder.com/600x450?text=maxkremer.lu" alt="Max Kremer Project"
+                        class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <h4 class="portfolio-title">maxkremer.lu</h4>
+                        <span class="portfolio-category mb-3 text-light text-center px-3"
+                            style="font-size:0.75rem;">Showcasing complex projects</span>
+                        <a href="https://maxkremer.lu" target="_blank" class="btn btn-sm btn-primary-custom mt-2"
+                            style="font-size: 0.8rem; padding: 0.4rem 1rem;">Visit Site</a>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="youtube">
+                    <img src="https://via.placeholder.com/600x450" alt="Project 3" class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <h4 class="portfolio-title">Project Title 3</h4>
+                        <span class="portfolio-category">YouTube Videos</span>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="vimeo">
+                    <img src="https://via.placeholder.com/600x450" alt="Project 4" class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <h4 class="portfolio-title">Project Title 4</h4>
+                        <span class="portfolio-category">Vimeo Videos</span>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="detailed">
+                    <img src="https://via.placeholder.com/600x450" alt="Project 5" class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <h4 class="portfolio-title">Project Title 5</h4>
+                        <span class="portfolio-category">Detailed</span>
+                    </div>
+                </div>
+                <!-- Item 6 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="mockups">
+                    <img src="https://via.placeholder.com/600x450" alt="Project 6" class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <h4 class="portfolio-title">Project Title 6</h4>
+                        <span class="portfolio-category">Mockups</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Call To Action Section -->
+    <section class="section-padding bg-dark-section text-center">
+        <div class="container">
+            <h2 class="display-5 fw-bold mb-4">Interested in working with me?</h2>
+            <a href="#contact" class="btn btn-primary-custom btn-lg mt-3">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- 8. FAQ Section -->
+    <section id="faq" class="section-padding bg-light-gray-section">
+        <div class="container">
+            <div class="section-heading-center">
+                <span class="section-label">FAQ</span>
+                <h2>Have Any Questions?</h2>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-5 mb-lg-0">
+                    <div class="accordion shadow-sm" id="faqAccordion">
+                        <div class="accordion-item border-0 mb-3 rounded">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What is your design approach?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    I try to construct a solid foundation by truly understanding your company, your
+                                    vision and requirements before starting with UI/UX mockups, ensuring that we hit the
+                                    nail perfectly on the head.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0 mb-3 rounded">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Can I get custom features developed?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Absolutely. With extensive knowledge in HTML, CSS, JavaScript, and various
+                                    frameworks, I can build custom interactive features that fit your project scope
+                                    seamlessly.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0 mb-3 rounded">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Do you provide after-project support?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Yes, I offer continued maintenance and updates as a separate package to ensure your
+                                    website functions blazingly fast and securely in the long run.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0 rounded">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    How much do you charge for a project?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Pricing varies greatly depending entirely on the project scope and timescale. Let's
+                                    arrange a call to discuss your budget and requirements to provide a highly accurate
+                                    quote.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 text-center px-4">
+                    <!-- Large Illustration / Icon placeholder -->
+                    <i class="bi bi-question-circle text-primary"
+                        style="font-size: 15rem; opacity: 0.8; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.1));"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Testimonials Section -->
+    <section class="section-padding bg-dark-section">
+        <div class="container">
+            <div class="section-heading-center">
+                <span class="section-label bg-light text-dark">TESTIMONIALS</span>
+                <h2 class="text-light">Client Feedback</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators" style="bottom: -50px;">
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner text-center">
+                            <!-- Slide 1 -->
+                            <div class="carousel-item active">
+                                <h5 class="mt-3 mb-1 text-primary">Dennis Rowland</h5>
+                                <p class="text-muted mb-3 fs-6">Customer</p>
+                                <p class="fs-4 fst-italic px-md-5">"Callum was fantastic to work with. He really paid
+                                    attention to detail and delivered a stellar frontend UI that our users love using
+                                    daily."</p>
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="carousel-item">
+                                <h5 class="mt-3 mb-1 text-primary">Jayden Wright</h5>
+                                <p class="text-muted mb-3 fs-6">CEO, TechStartup</p>
+                                <p class="fs-4 fst-italic px-md-5">"His capacity to transform flat mockup designs into a
+                                    lively and interactive experience is phenomenal. Highly recommend him for web
+                                    projects!"</p>
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="carousel-item">
+                                <h5 class="mt-3 mb-1 text-primary">Sarah Connor</h5>
+                                <p class="text-muted mb-3 fs-6">Product Manager</p>
+                                <p class="fs-4 fst-italic px-md-5">"A brilliant developer. Prompt communication,
+                                    bug-free delivery, and an excellent eye for aesthetics."</p>
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Contact Section -->
+    <section id="contact" class="section-padding bg-primary-section">
+        <div class="container">
+            <div class="section-heading-center">
+                <span class="section-label bg-dark text-light">GET IN TOUCH</span>
+                <h2>Contact Me</h2>
+            </div>
+
+            <div class="row pb-4">
+                <div class="col-lg-5 mb-5 mb-lg-0 text-center text-lg-start">
+                    <h3 class="mb-4 text-dark">Let's Talk</h3>
+                    <p class="mb-4 text-dark">Have a project in mind? Reach out to me via phone, email, or simply fill
+                        out the contact form below.</p>
+
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-4">
+                        <div class="contact-icon shadow-sm">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <div class="text-start">
+                            <h5 class="mb-0 text-dark">Website</h5>
+                            <a href="http://arbinrudro.pro.bd/" target="_blank"
+                                class="text-dark opacity-75 text-decoration-none">arbinrudro.pro.bd</a>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-4">
+                        <div class="contact-icon shadow-sm">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <div class="text-start">
+                            <h5 class="mb-0 text-dark">Address</h5>
+                            <p class="mb-0 text-dark opacity-75">Dhaka, Bangladesh</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-4">
+                        <div class="contact-icon shadow-sm">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <div class="text-start">
+                            <h5 class="mb-0 text-dark">Email</h5>
+                            <p class="mb-0 text-dark opacity-75">arbinrudro1234@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-4">
+                        <div class="contact-icon shadow-sm">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <div class="text-start">
+                            <h5 class="mb-0 text-dark">Phone</h5>
+                            <p class="mb-0 text-dark opacity-75">+8801754974855</p>
+                        </div>
+                    </div>
+
+                    <div class="social-icons mt-4 justify-content-center justify-content-lg-start d-flex">
+                        <a href="https://www.facebook.com/efhad.hossain.7" target="_blank" aria-label="Facebook"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://x.com/arbin_rudro" target="_blank" aria-label="X (Twitter)"><i
+                                class="bi bi-twitter-x"></i></a>
+                        <a href="https://www.linkedin.com/in/arbin-rudro-2654b6394/" target="_blank"
+                            aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/ArbinRudro" target="_blank" aria-label="GitHub"><i
+                                class="bi bi-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="bg-white p-4 p-md-5 rounded shadow">
+                        <h4 class="mb-4">Send a Message</h4>
+                        <form id="contactForm" action="https://formsubmit.co/arbinrudro1234@gmail.com" method="POST"
+                            class="needs-validation" novalidate>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label fw-medium">Name</label>
+                                    <input type="text" class="form-control" id="name" name="name">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label fw-medium">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                    <div class="invalid-feedback">Please enter a valid email.</div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label fw-medium">Subject</label>
+                                <input type="text" class="form-control" id="subject" name="subject">
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="form-label fw-medium">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                            </div>
+                            <!-- Formsubmit hidden fields -->
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+                            <button type="submit" id="submitBtn" class="btn btn-dark-custom w-100">Send Message</button>
+                            <div id="formSuccessMessage" class="d-none mt-3 p-3 text-center rounded"
+                                style="background-color: var(--dark-bg); color: var(--primary-color); border: 1px solid var(--primary-color);">
+                                <i class="bi bi-check-circle-fill me-2"></i> Message sent successfully! I will get back
+                                to you soon.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark-section py-4 text-center">
+        <div class="container">
+            <p class="mb-0">Copyright © 2026 <span class="text-primary fw-bold">Arbin Rudro</span>. All Rights
+                Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll To Top Button -->
+    <a href="#" id="scrollToTop" aria-label="Scroll to top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
